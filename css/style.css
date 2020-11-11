@@ -190,28 +190,35 @@ h1{
   height: 100%;
   position: relative;
 
+  padding: 0 60px;
+
 }
 
 .servizi{
   width: 310px;
   height: 350px;
   background-color: #fff;
-  position: relative;
+  position: absolute;
   text-align: center;
+}
+
+.container-servizi .servizi:first-child{
+  left: 160px;
 }
 
 
 .container-servizi .servizi:nth-child(2){
-  position: absolute;
   left: 50%;
   transform: translate(-50%);
 }
 
 .container-servizi .servizi:nth-child(3){
-  position: absolute;
-  right: 0;
+
+  right: 160px;
 
 }
+
+
 
 
 
