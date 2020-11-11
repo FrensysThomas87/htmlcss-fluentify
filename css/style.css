@@ -300,12 +300,68 @@ hr{
 
 /*FOOTER*/
 footer{
-  height: 150px;
+  height: 250px;
   padding: 0 100px;
+  position: relative;
 }
 
 footer h2{
-  line-height: 150px;
+  line-height: 250px;
   font-size: 30px;
 }
+
+.visualizza-piano-container{
+  position: absolute;
+  right: 400px;
+  width: 350px;
+  height: 80px;
+  top:50%;
+  transform: translate(0, -50%);
+}
+
+.visualizza-piano-container label{
+  line-height: 80px;
+}
+
+.visualizza-piano-container select{
+  width: 200px;
+
+}
+
+.button-plan-visualization{
+  width: 240px;
+  height: 80px;
+  position: absolute;
+  right: 240px;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+  border-radius: 4px;
+
+}
+
+.button-plan-visualization span{
+  line-height: 80px;
+  color: #fff;
+
+}
+
+.button-plan-visualization a{
+  text-decoration: none;
+}
+
+.help{
+  position: absolute;
+  right: 320px;
+  bottom: 0;
+  padding: 20px;
+  border-radius: 4px;
+
+}
+
+.help a{
+  text-decoration: none;
+  color: #fff;
+}
+
 /*END FOOTER*/
