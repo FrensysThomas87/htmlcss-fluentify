@@ -178,8 +178,36 @@ h1{
 /*SEZIONE SERVIZI*/
 .sezione-servizi{
   height: 550px;
-  background-color: red;
   border-bottom: 1px solid #000;
+  padding: 15px 80px;
+}
+
+.container-servizi{
+  height: 100%;
+  background-color: blue;
+}
+
+.servizi{
+  width: 360px;
+  height: 400px;
+  background-color: #fff;
+  border: 1px solid black;
+  position: relative;
+  text-align: center;
+
+}
+
+.img-servizi{
+  width: 100px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.container-servizi h2{
+  margin-top: 140px;
+  color:#78b800;
 }
 /*END SEZIONE SERVIZI*/
 
