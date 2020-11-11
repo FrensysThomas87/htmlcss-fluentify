@@ -110,10 +110,19 @@ header .left-nav ul li a{
 
 .intestazione-header{
   width: 600px;
+
   background-color: black;
   position: absolute;
   left: 80px;
-  bottom: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.button-intestazione{
+  margin-top: 50px;
+  border-radius: 4px;
+  padding: 20px 10px;
+  display: inline-block;
 }
 
 h1{
