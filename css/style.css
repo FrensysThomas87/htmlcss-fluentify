@@ -9,7 +9,7 @@
 
 .container{
   width: 1200px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 /*HEADER*/
@@ -18,5 +18,29 @@ header{
   background: #083058;
 }
 
-
 /*END HEADER*/
+
+
+/*SEZIONE SERVIZI*/
+.sezione-servizi{
+  height: 550px;
+  background-color: red;
+  border-bottom: 1px solid #000;
+}
+/*END SEZIONE SERVIZI*/
+
+/*SEZIONE LIVELLO PARTENZA*/
+.sezione-livello-partenza{
+  background-color: green;
+  height: 550px;
+  border-bottom: 1px solid #000;
+}
+/*END SEZIONE LIVELLO PARTENZA*/
+
+
+/*FOOTER*/
+footer{
+  height: 200px;
+  background-color: grey;
+}
+/*END FOOTER*/
