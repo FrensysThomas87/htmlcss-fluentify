@@ -22,6 +22,9 @@
   display: table;
   clear: both;
 }
+.background-color-grey{
+   background-color: #d0d0d0;
+}
 
 /*END UTILITIES*/
 
@@ -140,6 +143,10 @@ header .left-nav ul li a{
 h1{
   font-size: 60px;
 }
+
+.intestazione-header a{
+  color:#fff;
+}
 /*END INTESTAZIONE HEADER*/
 
 /*IMMAGINE HEADER*/
@@ -162,7 +169,6 @@ h1{
 /*SLOGAN*/
 .slogan{
   height: 150px;
-  background-color: #d0d0d0;
   position: relative;
   text-align: center;
 
@@ -250,7 +256,6 @@ hr{
 /*SEZIONE LIVELLO PARTENZA*/
 .sezione-livello-partenza{
   height: 450px;
-  border-bottom: 1px solid #000;
   padding: 20px 250px;
 }
 
@@ -295,7 +300,12 @@ hr{
 
 /*FOOTER*/
 footer{
-  height: 200px;
-  background-color: grey;
+  height: 150px;
+  padding: 0 100px;
+}
+
+footer h2{
+  line-height: 150px;
+  font-size: 30px;
 }
 /*END FOOTER*/
