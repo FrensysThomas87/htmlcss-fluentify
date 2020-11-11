@@ -17,6 +17,12 @@
   background-color: #78b800;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*END UTILITIES*/
 
 .container{
