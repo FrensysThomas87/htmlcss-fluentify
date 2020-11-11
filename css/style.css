@@ -33,28 +33,27 @@ header{
 
 }
 
-header nav{
-  width: 80%;
+header .left-nav{
+
   margin-top: 10px;
   height: 50px;
-  /* background-color: red; */
   display: inline-block;
 }
 
 
 
-header nav ul li{
+header .left-nav ul li{
   display: inline-block;
   line-height: 50px;
 }
 
 
 
-header nav ul li:first-child{
+header .left-nav ul li:first-child{
   padding-left: 50px;
 }
 
-header nav ul li a{
+header .left-nav ul li a{
   text-decoration: none;
   padding-left: 20px;
   color: #fff;
