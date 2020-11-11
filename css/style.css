@@ -5,10 +5,18 @@
   box-sizing: border-box;
 }
 
+.color-white{
+  color: #fff;
+}
+
+.float-l{
+  float:left;
+}
+
 /*END UTILITIES*/
 
 .container{
-  width: 1200px;
+  width: 1600px;
   margin: 25px auto;
 }
 
@@ -16,7 +24,43 @@
 header{
   height: 700px;
   background: #083058;
+  padding: 20px 100px;
+
 }
+
+.logo-container{
+  margin-top: 10px;
+
+}
+
+header nav{
+  width: 80%;
+  margin-top: 10px;
+  height: 50px;
+  /* background-color: red; */
+  display: inline-block;
+}
+
+
+
+header nav ul li{
+  display: inline-block;
+  line-height: 50px;
+}
+
+
+
+header nav ul li:first-child{
+  padding-left: 50px;
+}
+
+header nav ul li a{
+  text-decoration: none;
+  padding-left: 20px;
+  color: #fff;
+
+}
+
 
 /*END HEADER*/
 
