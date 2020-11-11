@@ -188,13 +188,12 @@ h1{
 }
 
 .servizi{
-  width: 360px;
+  width: 310px;
   height: 400px;
   background-color: #fff;
   border: 1px solid black;
   position: relative;
   text-align: center;
-
 }
 
 .img-servizi{
@@ -205,9 +204,20 @@ h1{
   transform: translate(-50%);
 }
 
-.container-servizi h2{
+.servizi h2{
   margin-top: 140px;
   color:#78b800;
+}
+
+hr{
+  margin-top: 15px;
+  width: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.servizi p{
+  margin-top: 15px;
 }
 /*END SEZIONE SERVIZI*/
 
